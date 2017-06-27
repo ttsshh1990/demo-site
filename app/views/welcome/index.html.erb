@@ -15,10 +15,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <%= stylesheet_link_tag "bootstrap.min.css", media: "all" %>
+    <%= stylesheet_link_tag "font-awesome.min.css", media: "all" %>
     <%= stylesheet_link_tag "bootstrap-theme.css", media: "screen" %>
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css"> 
-	<link rel="stylesheet" href="assets/css/style.css">
-    <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
+    <%= stylesheet_link_tag "style.css", media: "all" %>
+    <%= stylesheet_link_tag "camera.css", id: "camera-css", type: "text/css", media: "all" %>
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
